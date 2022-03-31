@@ -1,0 +1,38 @@
+
+
+
+  <!DOCTYPE html  >
+  <html   lang="pt-br">
+     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>formulario  </title>
+        <link href="../css/formulario.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+     </head>
+     <body>
+        <div id ="form">
+           <main class="form-sign" >
+              <div  class="formulario" >
+                 <div id="app">
+                    <h2>Informe os seus dados para continuar</h2>
+                    <br>
+                    <label for="nome">Nome </label>
+                    <input type="text"  name="nome" id="nome" >
+                    <br><br>
+                    <label for="email">Email  </label>
+                    <input type="text"  name="email" id="email"  >
+                    <br><br>
+                    <label for="senha">Senha </label>
+                    <input type="text" name="senha" id="senha" >
+                    <br><br>
+                    <button  onclick="Postuser()"   id="botao-enviar" >Enviar</button>
+                 </div>
+                 </a>
+              </div>
+           </main>
+        </div>
+        <script src="./controllers/main.js"> </script> 
+     </body>
+  </html>

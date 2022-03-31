@@ -1,0 +1,199 @@
+font-face {
+    font-family: Bebas;
+    src: url(/Páginas/opções/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+
+body{
+    font-family: Bebas;
+    background-color: #7c35b4;
+}
+
+
+
+main.main{
+   background-color:#8b55b3;
+  
+   width: 65%;
+   height: 786px;
+   margin-left: 19%;
+   margin-top: 24px;
+   border-radius: 41px;
+}
+
+label{
+    margin-left: 23px;
+    color:white;
+}
+
+textarea.carta-correio{
+    width:99%;
+    height:585px;
+}
+
+button.enviar{
+    width: 102px;
+    font-size: 17px;
+    margin-left: 86%;
+    margin-top: 23px;
+    background-color: #d86ffc;
+    color: white;
+    border-radius: 14px;
+}
+
+
+
+/*responsavel para computadores  */
+@media only screen and (min-width: 1024px  ) and (max-width: 5000px)  {
+
+
+
+    body{
+        font-family: Bebas;
+        background-color: #7c35b4;
+    }
+    
+    
+    
+    main.main{
+       background-color:#8b55b3;
+      
+       width: 65%;
+       height: 786px;
+       margin-left: 19%;
+       margin-top: 24px;
+       border-radius: 41px;
+    }
+    
+    label{
+        margin-left: 23px;
+        color:white;
+    }
+    
+    textarea.carta-correio{
+        width:99%;
+        height:585px;
+    }
+    
+    button.enviar{
+        width: 102px;
+        font-size: 17px;
+        margin-left: 78%;
+        margin-top: 23px;
+        background-color: #d86ffc;
+        color: white;
+        border-radius: 14px;
+        margin-right: auto;
+    }
+    
+}
+
+
+/*responsavel para tables */
+@media only screen and (min-width: 768px  ) and (max-width: 1023px)  {
+
+    main.main{
+        background-color:#8b55b3;
+       
+        width: auto;
+        height: 786px;
+        margin-left: auto;
+        margin-top: 24px;
+        border-radius: 41px;
+        margin-right: auto;
+     }
+
+
+     button.enviar{
+        width: 102px;
+        font-size: 17px;
+        margin-left: 86%;
+        margin-top: 23px;
+        background-color: #d86ffc;
+        color: white;
+        border-radius: 14px;
+    }
+
+
+    button.enviar {
+        width: 102px;
+        font-size: 17px;
+        margin-left: 86%;
+        margin-right: auto;
+        margin-top: 23px;
+        background-color: #d86ffc;
+        color: white;
+        border-radius: 14px;
+        /* margin-left: auto; */
+    }
+
+
+
+   
+}
+
+
+
+ /*resposável para celulares deitados*/
+ @media only screen and (min-width: 480px  ) and (max-width: 767px)  {
+    main.main{
+        background-color:#8b55b3;
+       
+        width: auto;
+        height: 786px;
+        margin-left: auto;
+        margin-top: 24px;
+        border-radius: 41px;
+        margin-right: auto;
+     }
+
+
+     button.enviar {
+        width: 102px;
+        font-size: 17px;
+        margin-left: 80%;
+        margin-top: 23px;
+        background-color: #d86ffc;
+        color: white;
+        border-radius: 14px;
+        margin-right: auto;
+    }
+
+
+    
+
+}
+
+
+
+
+/*resposável para celulares em pé*/
+@media only screen and (min-width: 300px  ) and (max-width: 479px)  {
+
+
+    main.main{
+        background-color:#8b55b3;
+       
+        width: auto;
+        height: 786px;
+        margin-left: auto;
+        margin-top: 24px;
+        border-radius: 41px;
+        margin-right: auto;
+     }
+
+
+     button.enviar {
+        width: 102px;
+        font-size: 17px;
+        margin-left: 70%;
+        margin-top: 23px;
+        background-color: #d86ffc;
+        color: white;
+        border-radius: 14px;
+        margin-right: auto;
+    }
+
+
+
+}

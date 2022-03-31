@@ -1,0 +1,170 @@
+font-face {
+    font-family: Bebas;
+    src: url(/Páginas/opções/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+
+body{
+    font-family: Bebas;
+    background-color: #7c35b4;
+}
+
+
+div.formulario{
+    width: 362px;
+    height: 320px;
+    background-color: #8b55b3;
+    align-items: center;
+    border-radius: 54px;
+    margin: 321px;
+      margin-left: 321px;
+    margin-left: 456px;
+    margin-left: 682px;
+    text-align: center;
+    animation-name: example-formulario;
+    animation-duration: 5s;
+
+
+
+}
+
+@keyframes example-formulario {
+    from { margin-top: 100px}
+    to { margin-top: 321px}
+}
+
+h2{
+  text-align: center;
+        color: white;
+          padding-top: 20px;
+}
+label{
+    font-size: 20px;
+    color:white;
+}
+
+input{
+    border-radius: 18px;
+height: 20px;
+}
+
+
+
+button#botao-enviar {
+    padding: 14px;
+      padding-right: 14px;
+      padding-left: 14px;
+    padding-left: 48px;
+    padding-right: 48px;
+    font-size: 15.5px;
+   
+    background-color: #d86ffc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+
+
+  /*responsavel para computadores  */
+@media only screen and (min-width: 1024px  ) and (max-width: 5000px)  {
+  div.formulario{
+    
+       /* height: 320px; */
+       background-color: #8b55b3;
+       align-items: center;
+       border-radius: 54px;
+       margin: 321px;
+       text-align: center;
+       animation-name: example-formulario;
+       animation-duration: 5s;
+       margin-left: auto;
+       margin-right: auto;
+   }
+
+  
+
+
+
+
+
+}
+
+
+/*responsavel para tables */
+@media only screen and (min-width: 768px  ) and (max-width: 1023px)  {
+
+  div.formulario{
+    
+    /* height: 320px; */
+    background-color: #8b55b3;
+    align-items: center;
+    border-radius: 54px;
+    margin: 321px;
+    text-align: center;
+    animation-name: example-formulario;
+    animation-duration: 5s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+}
+
+
+
+
+/*resposável para celulares deitados*/
+@media only screen and (min-width: 480px  ) and (max-width: 767px)  {
+  div.formulario{
+    width: 362px;
+    height: 320px;
+    /* height: 320px; */
+    background-color: #8b55b3;
+    align-items: center;
+    border-radius: 54px;
+    margin: 321px;
+    text-align: center;
+    animation-name: example-formulario;
+    animation-duration: 5s;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 321px;
+  }
+  @keyframes example-formulario {
+    from { margin-top: 100px}
+    to { margin-top: 321px}
+}
+}
+
+
+
+/*resposável para celulares em pé*/
+@media only screen and (min-width: 300px  ) and (max-width: 479px)  {
+
+  div.formulario{
+    width: 323px;
+    height: 320px;
+    /* height: 320px;
+    height: 320px;
+    /* height: 320px; */
+    background-color: #8b55b3;
+    align-items: center;
+    border-radius: 54px;
+    margin: 321px;
+    text-align: center;
+    animation-name: example-formulario;
+    animation-duration: 5s;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 200px;
+  }
+  @keyframes example-formulario {
+    from { margin-top: 100px}
+    to { margin-top: 200px}
+}
+
+
+
+}

@@ -1,0 +1,159 @@
+font-face {
+    font-family: Bebas;
+    src: url(/Páginas/opções/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+a{
+    text-decoration:none;
+    
+}
+body{
+    background-color: #7c35b4;
+    margin-top: 111px;
+    margin-left:1%;
+      
+    font-family: Bebas;
+  
+}
+
+div.pagina-principal{
+    
+    height: 269px;
+
+    
+    
+  
+   
+}
+
+
+
+h1#texto-principal{
+    align-items: inherit;
+    text-align: center;
+    font-size: 85px;
+    color: white;
+}
+
+
+div#botao-principal{
+    margin-left: 805px;
+margin-top: 243px;
+background-color:  #d86ffc ;
+
+border-radius: 115px;
+width: 261px;
+height: 52px;
+transition: background-color 1s;
+}
+
+div#botao-principal:hover{
+    background-color:#8b55b3;
+}
+
+div.botao-texto-principal{
+    text-align: center;
+    font-size: 20px;
+   color:white;
+    margin-top: 32px;
+    padding: 16px;
+
+}
+
+/*responsavel para tables */
+@media only screen and (min-width: 768px  ) and (max-width: 1023px)  {
+    div#botao-principal {
+
+        margin-left: 0%;
+        background-color: #d86ffc;
+        border-radius: 115px;
+        height: 52px;
+        transition: background-color 1s;
+        margin-top: 0px;
+        width: auto;
+    }
+}
+ /*resposável para celulares deitados*/
+ @media only screen and (min-width: 480px  ) and (max-width: 767px)  {
+
+    a{
+        text-decoration:none;
+        
+    margin-left: 136px;
+    
+    }
+
+
+    div.pagina-principal {
+        height: 265px;
+      
+    }
+
+    h1#texto-principal {
+        align-items: inherit;
+        text-align: center;
+        font-size: 19px;
+        color: white;
+    }
+
+
+
+    div#botao-principal {
+        margin-left: 0%;
+        margin-top: 0px;
+        background-color: #d86ffc;
+        border-radius: 115px;
+        width: auto;
+        height: 52px;
+        transition: background-color 1s;
+    }
+    
+    div#botao-principal:hover{
+        background-color:#8b55b3;
+    }
+
+}
+
+
+/*resposável para celulares em pé*/
+@media only screen and (min-width: 300px  ) and (max-width: 479px)  {
+    div.pagina-principal {
+        height: 265px;
+      
+    }
+
+    h1#texto-principal {
+        align-items: inherit;
+        text-align: center;
+        font-size: 19px;
+        color: white;
+    }
+    div#botao-principal {
+        margin-left: 0%;
+        background-color: #d86ffc;
+        border-radius: 115px;
+        height: 52px;
+        width: auto;
+        transition: background-color 1s;
+        margin-top: 0px;
+    }
+    
+    div#botao-principal:hover{
+        background-color:#8b55b3;
+    }
+
+}
+
+  
+/*responsavel para computadores  */
+@media only screen and (min-width: 1024px  ) and (max-width: 5000px)  {
+    div#botao-principal {
+        margin-left: 0%;
+        background-color: #d86ffc;
+        border-radius: 115px;
+        width: auto;
+        height: 52px;
+        transition: background-color 1s;
+        margin-top: 0px;
+    }
+}
